@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetPy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/88f63170fe.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+  <section class="header">
+        <nav>
+            <a href="index.html"><img src="VetPy.png"></a>
+            <div class="nav-links" id ="navLinks">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="course.html">WHY THIS WEBSITE?</a> </li>
+                    <li><a href="blog.html">LET'S LEARN</a> </li>
+                    <li><a href="s.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a> </li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Welcome <span class="auto-type"></span></h1>
+        <p>Are you working towards learning something new? A new hobby perhaps? Need a basic skill
+            to potentially even get a job? Let's go on a mission to learn Python!
+        </p>
+        <a href="" class="hero-btn">Welcome!</a>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>    
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Veterans!", "Warriors!", "Everyone!"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+
+
+    </section>
+
+<!-- course -->
+    <section class="course">
+        <h1>Why This Website?</h1>
+        <p>I have collected the best and ideal information from different textbooks and videos. </p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>One Whole Curriculum</h3>
+                <p>
+                    As a programmer, I understand and I have
+                    experienced the struggles of learning a new language. <strong>It's not easy!</strong>
+                    Even with that in mind, I explored many youtube videos and many websites;
+                    but even with that help, it was very tough learning the language. Every site had
+                    details of a small section, and not a full curriculum. I have made
+                    VetPy in such a way, that you won't need to search the internet for 
+                    different sections!
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Fun Reading!</h3>
+                <p>
+                    I remember when researching for my project, I ran into many
+                    websites, where they had so much information, that the whole
+                    website was just <strong>info</strong>. There was no examples
+                    or anything, <strong>Just Information!</strong> Not a case with
+                    VetPy. I made this site also so users can enjoy tackling new
+                    topics while enjoying reading!
+
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Interactive Feature</h3>
+                <p>
+                    This site has been made with interactive features 
+                    like a intepreter, where you can test your own code
+                    and run the inital code that has been already made for you!
+                </p>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- campus -->
+    <section class="campus">
+        <h1>What All Topics Do We Cover?</h1>
+        <p>Pretty Much Bits and Pieces of Engineering and more!</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="cod.jpg">
+                <div class="layer">
+                    <h3>COMPUTER LANGUAGE</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img3.jpg">
+                <div class="layer">
+                    <h3>FUNDEMENTALS OF PYTHON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img4.jpg">
+                <div class="layer">
+                    <h3>AND MUCH MORE!</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Features</h1>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="diagram.jpg">
+                <h3>Pictures And Intepreters</h3>
+                <p>There will be pictures added soon, and small intepreters to help you out
+                    on specific details and to run test code.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="contact.jpg">
+                <h3>Contact</h3>
+                <p>If you have any specific questions, feel free
+                    to contact the owner, by going to the top 
+                    right corner of the home page and click <strong>Contact!</strong>
+                </p>
+            </div>
+            
+            
+        </div>
+
+
+
+    </section>
+
+    <!-- testimonials -->
+    <!--
+    <section class="testimonials">
+        <h1>What our Users say</h1>
+        <p>If you want to be a part of this, please contact me!</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="avatar.png">
+                <div>
+                    <p>
+                        One of the best websites I have used in a while!
+                        And definetly, really creative and I did not have
+                        any trouble finding information! I really recommend!
+                    </p>
+                    <h3>Omar Muhammad</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="avatar.png">
+                <div>
+                    <p>
+                       Had to use this website for a high school project,
+                       man without this website I wouldn't have been able
+                       to finish. Great Information! And always goes straight
+                       to the topic. Definitely recommend!
+                    </p>
+                    <h3>Stephon Modric</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+    -->
+    <!-- Call To Action -->
+
+    <section class="cta">
+        <h1>Do you have anymore questions?
+        </h1>
+        <a href="contact.html" class="hero-btn">CONTACT ME</a>
+    </section>
+    
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Hi I am Shreyan Mitra, and thank you for visiting
+            my website. If you have any questions do not hesitate to ask!
+        </p>
+        <div class="icons">
+            <a href="https://www.youtube.com/channel/UCNVb3nrBVcq5AOsS65UQ4tg">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <a href="https://twitter.com/ShreyanM55">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+        </div>
+            
+        
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <!--
+            <div class="icons">
+           
+           <i class="fa fa-linkedin"></i> 
+           <i class="fa fa-twitter"></i> 
+           <i class="fa fa-github"></i> 
+           <i class="fa fa-youtube" ></i> 
+
+        </div>
+        -->
+        
+        <p>Made with <i class="fa-brands fa-html5"></i>,<i class="fa-brands fa-css3-alt"></i>, <i class="fa-brands fa-js"></i> by Shreyan Mitra</p>
+    </section>
+
+
+
+    
+    <!-- Java Script -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+
+
+
+    
+
+</body>
+</html>

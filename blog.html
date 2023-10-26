@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetPy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/88f63170fe.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="VetPy.png"></a>
+            <div class="nav-links" id ="navLinks">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="course.html">WHY THIS WEBSITE?</a> </li>
+                    <li><a href="blog.html">LET'S LEARN</a> </li>
+                    <li><a href="s.html">BLOG</a></li>
+                    
+                    <li><a href="contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+        <h1>All About Python</h1>
+
+    </section>
+    
+    <!--blog page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+               
+            <section>
+                <div class="blog-left">
+               
+                    <section>
+                        <div class="post">
+                            <h2>What is a Computer Language?</h2>
+                            <p class="content">A computer doesn't understand human language 
+                            like English & Spanish, it only understands machine
+                            code. Machine code consists of 1's and 0's, like 0001101110.
+                            Us humans cannot read 0's and 1's, which is why we 
+                            made high level languages like C/C++, Java, and Python.
+                            Compilers and Intepreters convert this 'high level language'
+                            into machine code. The difference between a compiler and 
+                            intepreter is that, a compiler takes all the instructions at
+                            once, whereas the intepreter takes each instruction at a time.
+                            This is also why you might have heard intepreters take longer time to execute code than compilers. Python is an intepreter. 
+                            </p>
+        
+                            
+                            <button onclick="readMore(this)">Read More</button> 
+                        </div>
+                        <div class="post">
+                            <h2>Advantages And Applications + Download And Install</h2>
+                            <p class="content">
+                                There are many advantages, like webdesign. In 
+                                websdesign, you have to do backend development 
+                                (Make the portion of the website code that runs on the server). 
+                                You can make many videogames with Python using libraries like
+                                kivy and pygame. <strong>Python is famous for all the libraries it has</strong>.
+                                Additionally, making AI with python is also possible! You can even use it
+                                in healthcare, for instance making a prototype using Python code and this code may help do a task. This can be doing a surgery!! Search up
+                                python and dowload it. After downloading python, you can 
+                                find many intepreters, like Vscode or Pycharm, download one of those. <strong>THIS IS NOT MANDATORY!</strong>
+        
+                            </p>
+        
+                            
+                            <button onclick="readMore(this)">Read More</button> 
+                </div>
+                <div class="post">
+                    <h2>Indentation and Comment</h2>
+                    <p class="content">
+                        The indentation for other languages are done for readibility purpose only, but in Python, indentation is very significant. Because with too much or too less indentation, your code will not work. Comments are also very important, because they can help you organize your code and also figure what the code means. <br>
+                         Comments are useful when someone else is looking at it your code. To write a comment you need to use, Hashtag or #. A comment would look like this: #Write Some Text.  
+ 
+                    </p>
+                    
+                    <iframe src="https://trinket.io/embed/python/4572ff82d5" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    <button onclick="readMore(this)">Read More</button> 
+        </div>
+
+        <div class="post">
+            <h2>String and Ints</h2>
+            <p class="content">
+                A string is a collection of alphabets, words or other characters. Python has a inbuilt string class called <strong>str</strong>. Also, python strings are 'immutable', which means that they cannot be changed after they have been made or created. An example of a string is "Cool"; the characters of this string are 'C', 'o', 'o', 'l'. <br>
+                 A integer is a whole number, which can be either positive or negative, and it has no decimals. Integers also have unlimited length. 
+
+            </p>
+            <iframe src="https://trinket.io/embed/python/820654bf54" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+            <button onclick="readMore(this)">Read More</button> 
+</div>
+
+        <div class="post">
+            <h2>Printing Input</h2>
+            <p class="content">
+                Developers often have a need to interact with users, the reason for that can be to get data or to provide some sort of result. Most programs today use a dialog box or terminal as a way of asking the user to provide some type of input. Python provides 2 inbuilt functions for the user to use, one of these inbuilt functions are input().
+
+            </p>
+            <iframe src="https://trinket.io/embed/python/68bf4a1a8b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+            
+            <button onclick="readMore(this)">Read More</button> 
+</div>
+        <div class="post">
+    <h2>Print Function</h2>
+    <p class="content">
+        First what is a function? A function is a block of code that runs only when called. There are special type of functions, like an inbuilt function or a predefined function. You might have heard about an inbuilt function as I have talked about it previously. So all what print does, is that it displays some type of message. To be more specific it prints the specified message to the screen. The print function is written as print(str), print(int), and etc.. 
+
+    </p>
+    <iframe src="https://trinket.io/embed/python/4b59090fd7" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    
+    <button onclick="readMore(this)">Read More</button> 
+</div>
+        <div class="post">
+    <h2>Float point, Boolean and Type function</h2>
+    <p class="content">
+        What does float point mean? Floating point numbers are used to represent noninteger numbers or fractional numbers. For instance 3.121 is an example of a float point number. Boolean type is a inbuilt data type provided by python just like float point, int, and strings. Booleans represent either True of False. Booleans are used to represent the truth value of comparisons. For instance, 21 < -5 is False, whereas 0 == 0, is true. To understand what type of data type it is you can use the type function. For example, type('Hi') would return string. 
+
+    </p>
+    <iframe src="https://trinket.io/embed/python/fc96c7666c" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    
+    <button onclick="readMore(this)">Read More</button> 
+</div>    
+
+        <div class="post">
+    <h2>Boolean Operators</h2>
+    <p class="content">
+        Python has 3 boolean operators, and, or, not. Using conditional statements you can do comparisons to check whether they are true or false. Since we haven't learned about conditional statements, and we also don't know the syntax of them we will use psuedocode to express it. Psuedocode is simplified programming language, and it is used when designing. If 5 > 1 and 5 > 4, then print 'both testcases succeeded'. This would be an example of psuedocode. Let's look at this example step by step. 5 > 1, which is a TRUE statement, and 5 > 3, which is another TRUE statement, since both are TRUE, we will go to the bottom statement, the 'then part', and will return 'both testcases succeeded'. If this is confusing, try searching up truth tables.
+
+    </p>
+    <iframe src="https://trinket.io/embed/python/6782ddaadc" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+    <button onclick="readMore(this)">Read More</button> 
+</div>
+
+             
+
+        <div class="post">
+    <h2>Arithmetic Operators</h2>
+    <p class="content">
+        Aritmetic operators perform various mathematical function like addition, subtraction, multiplication, multiplying numbers to the power of something, and even modulus. The addition operator is '+', subtraction operator is '-', multiplication operator is '*', division operator is '/', exponent operator is '**', and lastly, modulus operator is '%'. Modulus returns the remainder of two numbers. For instance 5 % 2  would be 1. 
+
+    </p>
+    <iframe src="https://trinket.io/embed/python/b1ef352e3c" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+    <button onclick="readMore(this)">Read More</button> 
+</div>
+
+<div class="post">
+    <h2>More Operators</h2>
+    <p class="content">
+        Some other common operators we will use when coding are, !=, this is meant to show that you are comparing 2 numbers and they are not equal to each other. For example, 5 != 3, would return TRUE, because 5 is not equal to 3. == would be used to compare 2 numbers if they are equal to each other. For instance, 7 == 9, would return FALSE, as they are not equal to each other. Greater than or equal to represents >=, and less than or equal to represents this <=. You can also use > or < to compare numbers.  
+
+    </p>
+    <iframe src="https://trinket.io/embed/python/e07856abc4" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+    <button onclick="readMore(this)">Read More</button> 
+</div>
+
+
+<div class="post">
+    <h2>If...Else...Elif Statements</h2>
+    <p class="content">
+        Sorry to keep you waiting, but we are finally going to learn about conditional statements or IF, ELIF, AND ELSE STATEMENTS!! The if-else statement is used to execute code in two alternatives, which are the true part and false part. For example if 5 > 10, then print('Big'), but if it isn't then print('small'). The syntax won't look like that, but that is the concept; so you have to look at the first statment, if it is true then you go to true part (underneath the if part) and if it is false, then you go to the else part. In this case we can see that 5 is not greater than 10, so it will go the else part meaning it will print('small'). Elif or 'else if' is used to check another condition if the first if-statement is false.
+    </p>
+    <iframe src="https://trinket.io/embed/python/326573304c" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+    <button onclick="readMore(this)">Read More</button> 
+</div>
+
+<div class="post">
+    <h2>Loops - for, while</h2>
+    <p class="content">
+        There are two types of loops, for loop and a while loop. You might have heard about a for loop, which is used to repeat a specific block of code a known number of times. Whereas while loops are loops that will get executed as long as the condition is still true. It will make more sense once we see the syntax. A good example of how loops can be useful are if your are doing sequences like arithmetic or geometric, or it can be useful to maybe do a general set of processes for a specific number of times. Like watering all the plants, or a teacher grading an assignment.
+    </p>
+    <iframe src="https://trinket.io/embed/python/cc03b87d2c" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    <iframe src="https://trinket.io/embed/python/d16fd59aa3" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+    <button onclick="readMore(this)">Read More</button> 
+</div>
+
+
+<div class="post">
+    <h2>Break and Pass statements</h2>
+    <p class="content">
+        We will not be using pass statements in our code, but, however we will learn the concept. Pass statements are used as a placeholder, this placeholder is made for the future code. Meaning if you write a if statement, a function (We will learn this later), or a loop with no code inside it will give you a error. But if you put the pass statement in the empty code, then nothing will happen if you run that code. Another type of statement is the 'break statement'. This statement can allow you to exit or 'break' out of the loop, when a condition has been met. 
+    </p>
+    <iframe src="https://trinket.io/embed/python/ac062f4ca4" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    <button onclick="readMore(this)">Read More</button> 
+</div>
+
+<div class="post">
+    <h2>Functions</h2>
+    <p class="content">
+        A function is a block of code which only runs when it is called. A parameter is a special kind of variable used in functions, and these parameters will be later referred as datat, in the code. Parameters are also known as arguments. In a function you can have set of steps, one example can be watering your plants or washing dishes. This set of proccesses or steps are called Algorithims.
+    </p>
+    <iframe src="https://trinket.io/embed/python/ad57d713c8" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    <button onclick="readMore(this)">Read More</button> 
+</div>
+
+<div class="post">
+    <h2>List and List Functions</h2>
+    <p class="content">
+        List is a datatype, and it is used to store multiple elements in a single variable. You might have heard lists and arrays, but these two differentiate because list cannot manage arithmetic operations, whereas arrays can manage arithmetic operations. To make a list you have to use square brackets, [], you can put strings, int, and even boolean values in it. But you have to use commas between each datatype, like 5,4,6 or '2','the','true'. One cool function about lists that I used in the functions example above was len(). len() is used to return how many elements are stored in that list. So [1,35,'hi',True,5]; the len() of that would be 5.
+    </p>
+    <iframe src="https://trinket.io/embed/python/2fe5a9ca2e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    <button onclick="readMore(this)">Read More</button> 
+</div>
+
+<div class="post">
+    <h2>What Can You Do Now?</h2>
+    <p class="content">
+        Hey veterans! Now that you have completed most of the basics of python, you can start practicing all of these cool new concepts you learned. Without practice, you will forget this material, so don't forget to practice. After practicing you can tackle more advanced concepts, like different libraries of python! At last, after learning those you should have a very solid structure to perhaps get a job! If you don't want to get a job with this field, you can code competitively, as a hobby or just do it for fun! Thank you for going through my course, and I hope you learned something new!!
+    </p>
+    
+    <button onclick="readMore(this)">Read More</button> 
+</div>
+
+                <div class="post">
+                    <h1>Extra</h1>
+                    <h2>What are Algorithms in Computer Science?</h2>
+                    <p class="content">
+                        Algorithms are a process of steps to solve a
+                problem. Believe it or not; we use Algorithms
+                everyday in our lives! For instance we use it 
+                everytime we do math. Let's say we have a math 
+                equation -> 2*(x+5) - 3 = 4. First we multiply 
+                two times x plus five. <strong>2*(x+5)</strong>-3 = 4. 
+                After simplifying the equation would look like
+                this ->2x + 10 - 3 = 4. After that we would subtract
+                10 by 3, 2x +<strong>10 - 3</strong> = 4. Then we 
+                would have the equation as 2x + 7 = 4, now we would 
+                subtract 7 on both sides, resulting in this -> 
+                2x = -3. Lastly we would divide 2 on both sides 
+                which means x = -3/2 or x = -1.5. <br/>
+                All those steps from the problem we
+                did was an <strong>algorithm</strong>. These
+                type of Algorithms are used so much in our
+                life that we don't even notice it! Algorithms
+                are also very important in Computer Science.
+                Especially when a problem asks you to do something.
+                This something can be anything. And when we code
+                we write the <strong>steps</strong> down to solve
+                the problem! Down below is another example of an algorithm.
+        
+                    </p>
+                    <iframe src="https://trinket.io/embed/python/180c6efa89" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>                    
+                    <button onclick="readMore(this)">Read More</button>
+                </div>
+                <div class="post">
+                    <h2>Time Complexity</h2>
+                    <p class="content">
+                        If you don't know what time complexity, here is a
+                    brief explanation. Time complexity is the duration
+                    of time taken for an algorithm to run. We use the notation
+                    Big O, this a tool used to describe the time complexity 
+                    of different Algorithms. For example in the code below, all we
+                    are doing is looping through the list and printing the elements
+                    which means the time complexity would be linear.
+                    </p>
+                    <iframe src="https://trinket.io/embed/python/e7d712b5c2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                    <button onclick="readMore(this)">Read More</button>
+                </div>
+                <div class="post">
+                    <h2>Binary Search Algorithm</h2>
+                    <p class="content">
+                        Anyways, there is another algorithm which I want to
+                    show you, which is the <strong>Binary Search Algorithm!</strong>.
+                    It might look very complicated but when I finish explaining
+                    it will look really easy. So when to use Binary Search
+                    Algorithm. It would be the exact same case as the linear
+                    search Algorithm or when you need to find a designated
+                    element in an array. But when you use it; you should always have a 
+                    sorted array (descending to ascending integers) or sort the
+                    array beforehand. Alright, let's get into it! Let's say your array
+                    is this -> <strong>[2, 6, 7, 12, 17, 24, 26]</strong>. And let's say your designated
+                    element is <strong>26</strong>. First you would check the middle
+                    element and compare 26 with it. Since 26 > 12, you will move onto
+                    the elements [17,24,26]. Now the new middle element is 24. You will
+                    compare once again 26 with 24. Since 26 > 24, there is only one element 
+                    we can check. [26] is middle element because it is the only element
+                    we have to check. Now when we compare 26 with 26, we see that 
+                    we have found the designated element. The time complexity of 
+                    Binary Search Algorithm is <strong>O(log(n))</strong>, which is
+                    much better than <strong>O(n)</strong>.
+                    </p>
+                    <iframe src="https://trinket.io/embed/python/27a44d7f2d" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>                   
+                    <button onclick="readMore(this)">Read More</button>
+                </div>
+                
+            </section>
+
+
+
+            </div>
+            
+
+
+    </section>
+
+    
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Hi I am Shreyan Mitra, and thank you for visiting
+            my website. If you have any questions do not hesitate
+            to contact!
+        </p>
+        <div class="icons">
+            <a href="https://www.youtube.com/channel/UCNVb3nrBVcq5AOsS65UQ4tg">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <a href="https://twitter.com/ShreyanM55">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            
+        </div>
+        <p>Made with <i class="fa-brands fa-html5"></i>,<i class="fa-brands fa-css3-alt"></i>, <i class="fa-brands fa-js"></i> by Shreyan Mitra</p>
+    </section>
+
+
+
+    
+    <!-- Java Script -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+        let no0fCharac = 150;
+        let contents = document.querySelectorAll(".content");
+        contents.forEach(content => {
+            //If text length is less that no0fCharac... then hide the read more button
+            if(content.textContent.lenght < no0fCharac){
+                content.nextElementSibling.style.display = "none";
+            }
+            else{
+                let displayText = content.textContent.slice(0, no0fCharac);
+                let moreText = content.textContent.slice(no0fCharac);
+                console.log(displayText);
+                content.innerHTML = `${displayText}<span class="dots">...</span><span class="hide more">${moreText}</span>`
+            }
+        });
+
+        function readMore(btn){
+            let post = btn.parentElement;
+            post.querySelector(".dots").classList.toggle("hide");
+            post.querySelector(".more").classList.toggle("hide");
+            btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
+
+        }
+
+    </script>
+    
+</body>
+</html>

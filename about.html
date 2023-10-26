@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetPy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/88f63170fe.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="VetPy.png"></a>
+            <div class="nav-links" id ="navLinks">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="course.html">WHY THIS WEBSITE?</a> </li>
+                    <li><a href="blog.html">LET'S LEARN</a> </li>
+                    <li><a href="s.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a> </li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+        <h1>About Me</h1>
+
+    </section>
+
+    <!-- about me content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>About The Owner</h1>
+                <p>Hi I am Shreyan Mitra, I am 14 years old, living in California.
+                    I have a passion for coding, some languages I use to code are python, javascript, css, HTML, and php. I have also coded many applications like
+                    websites and games. Python has tons of cool and useful libraries like deepface, 
+                    which I used to make cool AI projects, the limits of python are really endless.
+                    Again,
+                    <strong>Thank You!</strong> for checking out <strong>VetPy</strong>.
+                </p>
+                <a href="blog.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about2.jpg">
+            </div>
+        </div>
+
+    </section>
+
+
+
+    
+    
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>Hi I am Shreyan Mitra, and thank you for visiting
+            my website. If you have any questions do not hesitate
+            to contact!
+        </p>
+        <div class="icons">
+            <a href="https://www.youtube.com/channel/UCNVb3nrBVcq5AOsS65UQ4tg">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <a href="https://twitter.com/ShreyanM55">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            
+        </div>
+        <p>Made with <i class="fa-brands fa-html5"></i>,<i class="fa-brands fa-css3-alt"></i>, <i class="fa-brands fa-js"></i> by Shreyan Mitra</p>
+    </section>
+
+
+
+    
+    <!-- Java Script -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
